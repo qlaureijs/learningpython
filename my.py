@@ -11,3 +11,11 @@ print(y[-7:-2])
 txt = "The rain in Spain stays mainly in the plain"
 x = "ain" in txt
 print(x)
+#
+a = 33
+b = 300
+if (a > b)
+ then
+  print("a is bigger than b")
+ else
+  print("a is NOT bigger than b") 
