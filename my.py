@@ -14,8 +14,18 @@ print(x)
 #
 a = 33
 b = 300
-if (a > b)
+if a > b:
  then
-  print("a is bigger than b")
- else
-  print("a is NOT bigger than b") 
+ print("a is bigger than b")
+else:
+ print("a is NOT bigger than b")
+#inserting a function
+def quinten_func():
+    print("hello Quinten")
+
+quinten_func()
+# while loop
+i = 10
+while i > 6:
+  print(i)
+  i -= 1
